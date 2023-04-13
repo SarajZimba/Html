@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <!-- Lists
+        bullets and numbering
+        1.unordered lists
+            When ordering is nnot necessary
+            eg: shopping lists
+
+            structure:
+                <ul>
+                    <li>List Item</li>
+                    <li>List Item</li>
+                </ul>
+                //They are not case censitive
+
+                attributes:
+                    type:
+                    disc(default)
+                    square circle
+
+
+        2.Ordered lists
+        when ordering is necessary
+        eg:direction, process, procedure
+
+        structure:
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
+                <li>List item</li>
+        attributes:
+                type:
+                    nnumeric : 1
+                    alphabets: a, A
+                    roman: i, I
+                    start: starting value(numeric)
+
+
+    -->
+    <ul  style="list-style :'+';" >
+        <li type="square">List item</li>
+        <li>List item</li>
+        <li type="circle">List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <ul>
+            <li>list item</li>
+            <li>list item</li>
+            <li>list item</li>
+            <ul>
+                <li>list item</li>
+                <li>list item</li>
+                <li>list item</li>
+            </ul>
+        </ul>
+    </ul>
+
+
+    <ol type="A" start="3">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ol>
+    <ol type="a" start="5">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ol>
+    <ol type="i">
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ol>
+    <ol type="I", start="4">
+        <li>List Item</li>
+        <li>List Item</li>
+        <ol>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ol>
+        <li>List Item</li>
+        <li>List Item</li>
+ 
+    </ol>
+
+
+
+    <br>
+    <br>
+    <br>
+    <hr style="background-color: aqua
+    ;">
+    <!-- Completed A simple Lists Tasks using ordered and unordered lists -->
+    <p>Preceding Text</p>
+    <ol type="I">
+        <li>List Item 1</li>
+        <ol type="a">
+            <li>Nested Item 1.1</li>
+            <li>Nested Item 1.1</li>
+        </ol>
+        <li>List Item 2</li>
+        <ol>
+            <li>Nested Item 2.1</li>
+            <li>Nested Item 2.2</li>
+            <ul type="circle">
+                <li>Nested Item 2.2.1</li>
+                <li>Nested Item 2.2.2</li>
+                <ul type="square">
+                    <li>Nested item 2.2.2.1</li>
+                    <li>Nested item 2.2.2.2</li>
+                </ul>
+                <li>Nested Item 2.2.3</li>
+            </ul>
+            <li>Nested Item 2.3</li>
+        </ol>
+        <li>List Item 3</li>
+            <ul type="disc">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.2</li>
+                <li>Nested Item 3.3</li>
+            </ul>
+    </ol>
+</body>
+</html>
